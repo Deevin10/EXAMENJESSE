@@ -1,0 +1,86 @@
+/* @FOOTER */
+/* ********** */
+
+
+
+    .masInfo{
+        
+        display: grid;
+        background-color: #C4C4C4;
+    
+        &__uno{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+        
+    
+        &__redes{
+            display: grid;
+            justify-content: center;
+            
+            
+        }
+    
+        &__form{
+            padding-top: 50px;
+            display: grid;
+            grid-template-rows: auto;
+            grid-gap: 8px;
+            align-content: center;
+            justify-items: center;
+            
+            
+        }
+    }
+    
+    
+    .copy{
+        font-size: map-get($fontSize , dos );
+        padding: 60px 0 60px 0 ;
+    }
+    
+    
+    
+
+    &__listatres{
+        display: grid;
+    }
+
+    .fb , .tw , .in{
+        padding: 15px 30px 15px 15px;
+        text-align: center;
+        text-align: start;
+        border: 1px solid black;
+    }
+    
+    li {
+    list-style-type: none;
+    margin: 1rem;
+    
+}
+
+.listas{
+    text-indent: 10%;
+}
+
+.titulo__redes{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: map-get($dispositivos, desktop)) {
+
+    
+    
+    
+    
+
+    
+}
+
+/* AQUI ACABADO LA PARTE DE SMARTPHONE */
+
+/* aqui empieza desktop */
+
+

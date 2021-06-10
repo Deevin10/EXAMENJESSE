@@ -1,0 +1,76 @@
+/* @COVER_BANNER */
+/* ********** */
+
+
+
+.contenidoMain{
+    display: grid;
+    /* grid-template-columns: ; */
+
+		/* flex-direction: column;
+		justify-content: center;
+		align-content: center; */
+
+    
+}
+ .figureArriba{
+     
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-bottom: 50px;
+ }
+ .figureAbajo{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: map-get($colores , beach );
+ }
+
+  h4{
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  
+  @media only screen and (min-width: map-get($breakpoints, smartphone)) and (orientation: portrait) {
+}
+
+
+/* AQUI ACABADO LA PARTE DE SMARTPHONE */
+
+@media only screen and (min-width: map-get($breakpoints, desktop)) {
+			
+		
+
+}
+
+
+
+
+// img(picture)
+/* .banner{
+    // mobile first
+    grid-column: 1 / span-1;
+    
+    // ipad
+    @media only screen and (min-width: map-get($breakpoints, ipad)) and (orientation: portrait) {
+        grid-column: 2 / span 6;
+        
+    }
+    // desktop
+    @media only screen and (min-width: map-get($breakpoints, desktop)) {
+        display: none;
+    }
+} */
+
+
+
+// en caso de border en smarthphone y en desktop sin 
+/* .banner{
+    width: 100%;
+    border-top-right-radius: 150px;
+
+    @media only screen and (min-width: 1000px){
+        border-radius: 0;
+    }
+} */

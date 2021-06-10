@@ -1,0 +1,210 @@
+/* @BOTONES */
+/* ********** */
+
+.botones{
+    display: grid;
+    justify-content: center;
+    
+    padding-top: .625rem;
+    grid-gap: .5rem;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    &__comprar{
+        width: 129px ;
+        height: 50px;
+        justify-content: center;
+
+        background-color: map-get($colores , naranja );
+        color: #fff;
+        border-color: transparent;
+        font-size: map-get($fontSize, uno );
+    }
+}
+
+
+
+.navegador{
+    
+
+    &__nav{
+        display: grid;
+        justify-content: center;
+        grid-gap: 8px;
+    }
+}
+
+.navegador__servicios{
+    background-color: map-get($colores , marron );
+        width: 327px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        border-color: transparent;
+        text-align: center;
+        padding-top: 15px;
+        color: black;
+        font-size: map-get($fontSize, uno );
+}
+
+.navegador__productos{
+    background-color: map-get($colores , marron );
+        width: 327px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        border-color: transparent;
+        text-align: center;
+        padding-top: 15px;
+        color:  black;
+        font-size: map-get($fontSize, uno );
+        
+}
+
+.botnaranja{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.0625rem;
+    padding-bottom: 2.125rem;
+
+    
+    &__leer{
+        
+        border-color: transparent;
+        color: #fff;
+        border-radius: 0px 50px 50px 0px;
+        width: 296px;
+        height: 50px;
+        background-color: map-get($colores , naranja );
+        font-size: map-get($fontSize, uno );
+    }
+
+    
+}
+
+.area{
+    width: 328px;
+    height: 50px;
+    border-color: transparent;
+    
+}
+.noticias{
+    width: 328px ;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: map-get($colores , naranja );
+        color: #fff;
+        border-color: transparent;
+        border-radius: 50px 50px 50px 50px;
+}
+@media only screen and (min-width: map-get($breakpoints, smartphone)) and (orientation: portrait) {
+}
+
+
+/* AQUI ACABADO LA PRIMERA PARTE DE SMARTHPHONE */
+
+/* aqui empiezo desktop */
+
+@media only screen and (min-width: map-get($breakpoints, desktop))  {
+
+    
+
+}
+
+
+
+
+
+
+
+
+/* .botones{
+    display: grid;
+    justify-items: center;
+    padding-top: 5px ;
+    border: 0;
+    grid-gap: 8px;
+    
+
+    &__comprar{
+        
+        width: 129px ;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: map-get($colores , naranja );
+        color: #fff;
+        border-color: transparent;
+    }
+
+    &__productos{
+        background-color: map-get($colores , marron );
+         width: 327px;
+         height: 50px;
+        justify-content: center;
+        align-items: center;
+        border-color: transparent;
+
+    }
+    &__servicios{
+        background-color: map-get($colores , marron );
+        width: 327px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        border-color: transparent;
+    }
+    
+}
+.nav{
+    display: grid;
+}
+
+.leer{
+    
+    border-color: transparent;
+    color: #fff;
+    border-radius: 0px 50px 50px 0px;
+    width: 296px;
+    height: 50px;
+    background-color: map-get($colores , naranja );
+}
+
+
+.area{
+    width: 328px;
+    height: 50px;
+    border-color: transparent;
+    
+}
+.noticias{
+    width: 328px ;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: map-get($colores , naranja );
+        color: #fff;
+        border-color: transparent;
+        border-radius: 50px 50px 50px 50px;
+} */
+
+
+
+
+
+
+//SOLO ES GUIA
+/* .btn{
+    padding: .9375rem;
+    font-size: 1.125rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+    &amarillo{
+        color: map-get($colores, negro);
+        background-color: map-get($colores, amarillo);
+    }
+} */
